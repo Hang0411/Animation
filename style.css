@@ -1,0 +1,204 @@
+/*#banana {
+    width: 500px;
+    display:flex;
+    margin-left: 200px;
+    text-align: center;
+    
+}
+button{
+    padding: 10px;
+    background-color: beige;
+  
+}
+
+
+/*
+div{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(247, 236, 236);
+}
+
+button{
+    background-color: rgb(224, 224, 218);
+}
+
+#texte1{
+    display: none;
+}
+
+#suite{
+    display: none;
+
+}
+*/
+
+
+/* Ex 3: 
+#div1{
+    width: 1100px;
+    height: 900px;
+    background-color: rgb(230, 225, 220);
+    display: none;
+
+}
+
+.div{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(212, 108, 108);
+    padding: 10px;
+    
+}
+*/
+
+/* TESTER ANIMATION */
+
+
+
+#container{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(252, 217, 217);
+    display: flex;
+    margin: auto;
+    
+}
+#circle{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid rgb(105, 105, 102);
+    border-radius: 100%;
+    margin: auto;
+   
+}
+
+#move{
+    width: 300px;
+    height: 30px;
+    background-color: rgba(221, 221, 6, 0.521);
+    font-weight:bolder;
+    font-size: 18px;
+    color: rgb(54, 54, 52);
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+    transition-property:calc(1);
+    transition-duration: 1000ms;
+}
+
+#circle:active{
+    transform: scale(2);
+    transition: transform 2000ms;
+
+}
+
+#move:hover{
+    background-color: lightseagreen;
+    transform: scale(1.5);
+    
+}
+
+#move:active{
+    background-color: rgb(235, 100, 10);
+    
+
+    
+}
+
+#secter{
+    width: 1000px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.texte:hover {
+    background-color: rgb(206, 226, 21);
+  }
+  
+  p:nth-child(2n) {
+    background-color: rgb(247, 247, 162);
+  }
+
+
+
+p:first-child  {
+    animation-duration: 10s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  #rond{
+      width: 700px;
+      height: 400px;
+      margin: auto;
+      margin-top: 50px;
+      background-color: rgb(233, 212, 173);
+      border-radius: 5px;
+  }
+
+  #rond div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 93, 11);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(185, 43, 185);
+    border: 2px solid rgb(105, 105, 102);
+    border-radius: 100%;
+    margin: auto;
+    transition: width 10s, height 10s, background-color 10s, transform 10s;
+    }
+    
+#rond div:hover {
+        background-color: #d8ba0e;
+        width: 400px;
+        height: 400px;
+        transform: rotate(180deg);
+    }
+
+#carre{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(170, 132, 61);
+    border-radius: 5px;
+
+}
+
+#carre div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 176, 140);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(185, 43, 185);
+    border: 2px solid rgb(105, 105, 102);
+    border-radius: 10px;
+    margin: auto;
+    transition: width 10s, height 10s, background-color 10s, transform 20s;
+    }
+    
+#carre div:hover {
+        background-color: rgb(231, 198, 7);
+        width: 400px;
+        height: 400px;
+        transform: rotate(180deg);
+    }
